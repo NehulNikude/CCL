@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotels - Book Your Stay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">LuxuryStays</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Find Your Perfect Stay</h1>
+            <p>Discover comfort and luxury at unbeatable prices</p>
+        </section>
+
+        <section class="booking-form">
+            <h2>Book Your Room</h2>
+            <form id="hotel-booking">
+                <div class="form-group">
+                    <label for="check-in">Check In</label>
+                    <input type="date" id="check-in" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="check-out">Check Out</label>
+                    <input type="date" id="check-out" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Guests</label>
+                    <select id="guests" required>
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="room-type">Room Type</label>
+                    <select id="room-type" required>
+                        <option value="standard">Standard Room</option>
+                        <option value="deluxe">Deluxe Room</option>
+                        <option value="suite">Suite</option>
+                    </select>
+                </div>
+
+                <button type="submit">Search Availability</button>
+            </form>
+        </section>
+
+        <section class="featured-rooms">
+            <h2>Featured Rooms</h2>
+            <div class="room-grid">
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=500&auto=format" alt="Standard Room">
+                    <h3>Standard Room</h3>
+                    <p>Perfect for solo travelers or couples</p>
+                    <span class="price">$99/night</span>
+                </div>
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?w=500&auto=format" alt="Deluxe Room">
+                    <h3>Deluxe Room</h3>
+                    <p>Spacious room with city view</p>
+                    <span class="price">$149/night</span>
+                </div>
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format" alt="Suite">
+                    <h3>Luxury Suite</h3>
+                    <p>Ultimate luxury experience</p>
+                    <span class="price">$299/night</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@luxurystays.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#amenities">Amenities</a></li>
+                    <li><a href="#location">Location</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LuxuryStays. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
